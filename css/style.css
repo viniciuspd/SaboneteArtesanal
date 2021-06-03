@@ -1,0 +1,845 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+@keyframes botao {
+    0%{transform:scale(1);}
+    25%{transform:scale(1.05);}
+    50%{transform:scale(1);}
+    75%{transform:scale(1.05);}
+    100%{transform:scale(1);}
+
+}
+
+
+@font-face{
+    font-family: Headline;
+    src: url("../fonts/Segoe\ UI\ Bold.ttf");
+}
+
+@font-face {
+    font-family: Bahnschrift;
+    src: url("../fonts/BAHNSCHRIFT.TTF");
+}
+body{
+    background-color: #EBEBEB;
+}
+
+.duvidas-frequentes .botao4{
+    margin-top: 20px;
+}
+#offert{
+    transition: all 4s;
+}
+
+.purple{
+    color:#8400BB;
+}
+
+header{
+    background-color: #F6F6F6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-header{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-header h1{
+    font-family: 'Headline';
+    font-size: 40px;
+    text-align: center;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-content{
+    width: 700px;
+    height: 393px;
+    margin-top: 20px;
+    border: 4px solid #7700DF;
+}
+
+.subtitle-video{
+    margin-top: 15px;
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+}
+
+.first-offert{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.first-offert h4{
+    font-size: 25px;
+    font-family: 'Bahnschrift';
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.botao-m{
+    margin: 0 auto;
+    width: auto;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-family: 'Bahnschrift';
+    font-weight: bold;
+    font-size:40px;
+    text-decoration: none;
+    color:#fff;
+    text-shadow: 0px 3px 6px rgba(0,0,0,0.84);
+    background-image: linear-gradient(#007A1C,#2AA100);
+    text-align: center;
+    border-radius: 40px;
+    box-shadow:0px 3px 5px rgba(0,0,0,0.84);
+    animation-name:botao;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+.botao-m:hover{
+    background-image: linear-gradient(#01c82f,#2faf00);
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+}
+
+
+.headline-sections h2{
+    font-family: 'Bahnschrift';
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.headline-sections h4{
+    font-family: 'Bahnschrift';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.vantagens-lista{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.box-vantagens{
+    display: flex;
+    margin: 15px;
+}
+
+.box-vantagens h4{
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.check-vantagens{
+    width: 23px;
+    height: 26px;
+    margin-top: 5px;
+}
+
+.bar-vantagens{
+    background-color: #7700DF;
+    height: 2px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.conteudo-curso{
+    max-width: 100%;
+    background-color: #6C1275;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.area-box-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-conteudo{
+    width: 290px;
+    height: 370px;
+    padding:10px;
+    background-color: rgb(241, 241, 241);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.64);
+
+
+}
+
+.box-conteudo h2{
+    font-family: 'Bahnschrift';
+    font-weight: bold;
+    font-size:25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bar-conteudo{
+    width: 95%;
+    background-color: #7700DF;
+    padding: 1px;
+}
+
+.box-conteudo p{
+    font-family: 'Bahnschrift';
+    font-weight: lighter;
+    font-size:21px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+}
+
+.area-depoimentos-wpp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.img-wpp img{
+    width: 275px;
+    height: 475px;
+}
+
+.area-depoimentos-video{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-depoimento{
+    margin-top: 25px;
+    width: 500px;
+    height: 300px;
+    border:2px solid #7700DF; 
+    box-shadow: 0px 3px 6px #000;
+}
+
+.alunas-quantidade p{
+    margin-top: 20px;
+    font-family: 'Bahnschrift';
+    font-size:27px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ytp-volume-area{
+    display: none;
+}
+
+.bonus{
+    padding: 25px;
+    max-width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonus .headline-sections p{
+    font-family: 'Headline';
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+}
+.bar-bonus{
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 90%;
+    height: 2px;
+    background-color: #7700DF;
+}
+
+.area-bonus{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bonus-model{
+    margin:20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bonus-model h2{
+    font-family: 'Bahnschrift';
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bonus-model > p{
+    font-family: 'Bahnschrift';
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    color: #7700DF;
+    text-shadow: 0px 3px 5px rgba(0,0,0,0.16);
+    margin-bottom: 10px;
+}
+.bonus-model img{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.oferta .headline-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.oferta .headline-sections h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.oferta .headline-sections p {
+    font-family: 'Bahnschrift';
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.area-check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.oferta{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.oferta .headline-sections p{
+    font-size: 50px;
+}
+
+.check-oferta{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.check-oferta img{
+    margin-right: 10px;
+    width: 23px;
+    height: 26px;
+}
+
+.check-oferta p{
+    font-family: 'Bahnschrift';
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.86);
+}
+
+.img-seta-oferta{
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.preco-oferta{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.preco-oferta h4{
+    margin: 10px;
+    font-family: 'Bahnschrift';
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.preco-oferta h3{
+    margin: 10px;
+    font-family: 'Bahnschrift';
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.preco-oferta h1{
+    margin: 10px;
+    font-family: 'Bahnschrift';
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.preco-oferta p{
+    margin: 10px;
+    font-family: 'Bahnschrift';
+    font-size: 30px;
+    text-align: center;
+    font-weight:lighter;
+}
+
+.temporizador{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hora, .minuto, .segundo{
+    padding: 10px;
+    padding-bottom: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B00BC;
+    margin-right: 7px;
+    margin-left:7px;
+    border-radius: 10px;
+}   
+
+.box-time span{
+    font-family: 'Bahnschrift';
+    font-size: 80px;
+    text-align: center;
+    font-weight:bold;
+    color: #fff;
+}
+
+.temporizador p{
+    font-family: 'Bahnschrift';
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 2px;
+    color: #6B00BC;
+}
+.formas-pagamentos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    width: 100%;
+}
+
+.formas-pagamentos img{
+    height: 100%;
+}
+
+.garantia{
+    max-width: 100%;
+    background-color: #6C1275;
+    padding: 20px;
+}
+
+.garantia .headline-sections h2{
+    color: #fff;
+}
+
+.area-garantia{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.img-garantia{
+    width: 300px;
+}
+
+.texto-garantia{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.texto-garantia p{
+    font-family: 'Bahnschrift';
+    font-size: 22px;
+    margin-left: 30px;
+    text-align: center;
+    font-weight:lighter;
+    color: #fff; 
+}
+
+.duvidas-frequentes{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.area-duvida{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    align-items: center;
+}
+
+.duvida{
+    background-color: #6B00BC;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.84);
+    cursor: pointer;
+}
+
+.conteudo-duvida{
+    border: 1px solid #6B00BC;
+    padding: 20px;
+    width: 80%;
+    transition: 1s;
+}
+
+.invisivel{
+    display: none;
+    opacity: 0;
+}
+
+.conteudo-duvida p{
+    font-family: 'Bahnschrift';
+    font-size: 18px;
+    font-weight:lighter;
+    color: #000; 
+
+}
+
+.duvida:hover{
+background-color:#5a009e; ;
+}
+
+.duvida p{
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+    font-weight:lighter;
+    color: #fff; 
+    text-transform: uppercase;
+}
+
+
+
+.duvida img{
+    width: 22px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.yellow{
+    color: yellow;
+    font-size: 30px;
+}
+
+
+@media  (max-width:700px){
+    .box-conteudo{
+    height: auto;      
+    }
+}
+
+
+@media  (min-width:421px) and (max-width:450px){
+    .botao-m{
+        font-size: 35px;
+    }
+    header .botao-m{
+        font-size:30px;
+    }
+     header .video-content{
+        width: 360px;
+        height: 202px;
+    }
+}
+
+@media (max-width:450px){
+
+
+    .depoimentos{
+        padding: 5px;
+        padding-bottom: 25px;
+    }
+    .title-header h1{
+        font-size: 23px;
+    }
+
+    .content-header{
+        max-width: 100%;
+    }
+
+    .video-content{
+        width: 300px;
+        height: 168px;
+    }
+
+    .subtitle-video{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .headline-sections h2{
+        font-size: 29px;
+    }
+
+    .video-depoimento{
+        width: 300px;
+        height: 168px;
+    }
+
+    .oferta .headline-sections p{
+        font-size: 33px;
+    }
+    .check-oferta p{
+        font-size: 22px;
+    }
+    .box-vantagens h4{
+        font-family: 'Bahnschrift';
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .box-vantagens{
+        margin: 5px;
+    }
+
+    .bar-vantagens{
+        margin-bottom: 5px;
+    }
+
+    .vantagens{
+        padding: 10px;
+    }
+
+    .bonus{
+        padding: 5px;
+    }
+    .bonus .headline-sections p{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .bonus .headline-sections h2{
+        margin-top: 10px;
+    }
+
+    .img-cert{
+        width: 300px;
+    }
+    .oferta .headline-sections h2 {
+        margin-top: 10px;
+    }
+    .preco-oferta h1{
+        font-size: 70px;
+    }
+
+    .preco-oferta h3{
+        font-size: 40px;
+    }
+
+    .preco-oferta p{
+        font-size: 26px;
+    }
+
+    .area-garantia{
+        flex-direction: column;
+    }
+
+    .texto-garantia{
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .texto-garantia p{
+        margin-left: 0px;
+    }
+
+    .duvida{
+        width: 95%;
+    }
+
+    .duvida p{
+        font-size: 16px;
+    }
+
+    .area-duvida{
+        width: 95%;
+    }
+
+    .bonus-model{
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .formas-pagamentos{
+        margin-top: 0px
+    }
+    .duvida img {
+        width: 15px;
+        height: 11px;
+    }
+
+}
+
+@media (max-width:420px){
+    header .video-content{
+        width: 360px;
+        height: 202px;
+    }
+    .botao-m{
+        font-size: 25px;
+    }
+
+    .title-header h1{
+        font-size: 21px;
+    }
+
+    .box-time span {
+        font-size: 60px;
+    }
+    .formas-pagamentos img{
+        width: 200px;
+    }
+
+    .hora, .minuto, .segundo{
+        width: 70px;
+    }
+
+    .img-garantia{
+        display: flex;
+        justify-content: center;
+    }
+    .img-garantia img{
+        width: 280px;
+    }
+
+    .box-conteudo{
+        width: 280px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    
+    .temporizador{
+        margin: 0px auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.duvidas-frequentes{
+    padding-bottom: 79px;
+}
+
+.pop-vendas{
+    font-family: 'Headline';
+    font-size: 13px;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 60px;
+    display: none;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #d1d1d1;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.34);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.pop-vendas h5{
+    font-size: 16px;
+}
+
+.nome-vendas{
+    display: flex;
+    align-items: center;
+}
+
+.nome-vendas img{
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
